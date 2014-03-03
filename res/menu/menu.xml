@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/refresh_map"
+          android:icon="@drawable/refresh_button"
+          android:title="@string/refresh_map"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/not_checked_in"
+          android:icon="@drawable/not_checked_in"
+          android:title="@string/not_checked_in"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/checked_in"
+          android:icon="@drawable/checked_in"
+          android:title="@string/checked_in"
+          android:showAsAction="ifRoom|withText" >
+    	<menu>
+    	    <item android:id="@+id/checked_in_lot"
+    	        android:title="@string/checked_in_lot"
+    	        />
+    	</menu>
+    </item>
+    <item android:id="@+id/check_out"
+          android:icon="@drawable/check_out"
+          android:title="@string/check_out"
+          android:showAsAction="ifRoom|withText" />
+</menu>

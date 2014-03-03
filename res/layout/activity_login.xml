@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:clickable="true"
+    android:background="#FFFFFF" >
+    
+	<ImageView
+	    android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+	    android:layout_marginBottom="20dp"
+	    android:contentDescription="@string/logo_description"
+        />
+	
+	<TextView
+	    android:id="@+id/usernameLabel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="20sp"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginBottom="20dp"
+	    android:text="@string/username_label"
+	    />
+	
+	<EditText
+	    android:id="@+id/usernameField"
+	    android:inputType="text"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    />
+	
+	<TextView
+	    android:id="@+id/passwordLabel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="20sp"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginBottom="20dp"
+	    android:text="@string/password_label"
+	    />
+	
+	<EditText
+	    android:id="@+id/passwordField"
+	    android:inputType="textPassword"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    />
+	
+	<TextView
+	    android:id="@+id/errorMessage"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="20sp"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="10dp"
+	    android:text=""
+	    android:textColor="#FF0000"
+	    />
+	
+	<Button
+	    android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"      
+        />
+	
+</LinearLayout>
